@@ -176,7 +176,7 @@ ul li img{
     flex-direction: column;
     width: auto;
     align-content: center;
-
+    background-color: none;
 }
 
 .highlights h3{
@@ -199,8 +199,15 @@ ul li img{
     display: flex;
     flex-direction: row;
 }
-.row1, .row2 >div{
+.row1 >div{
     text-align: center;
+    border: solid lightgray;
+    border-radius: 1em;
+}
+.row2 >div{
+    text-align: center;
+    border: solid lightgray;
+    border-radius: 1em;
 }
 
 .mobile{
