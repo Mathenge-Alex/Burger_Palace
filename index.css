@@ -124,46 +124,45 @@ em{
 .services{
     background-color: lightcyan;
     height: 300px;
-}
-/* .services.quality {
-    padding: 10px 12px 10px 12px;
-    border-style: solid;
-    border: thin;
-    width: 15%;
-    margin: auto;
-    display: inline;
-    border: goldenrod;
-    font-style: italic;
-    
-} */
-ul{
-    display: inline;
     display: flex; 
     flex-direction: row;
     list-style: none;
     padding:25px;
 }
+/* .services .quality {
+    padding: 10px 12px 10px 12px;
+    border-style: solid;
+    border: thin;
+    /* width: 50%;
+    margin: auto;
+    display: inline;
+    /* border: goldenrod; */
+    /* font-style: italic; */
+
 ul li{
     border: solid;
     border-radius: 8px;
     border-width: thin;
     border-color: goldenrod;
     margin: 5px;
+    width: 50%;
+    text-align: center;
+}
+ul li img{
+    width: 20px;
+    height: 20px;
 }
 .quality{
-    width: 130px;
     height: 130px;
     margin: auto 1px;
     padding: 5px;
 }
 .fast{
-    width: 130px;
-    height: auto;
+    height: 150px;
     margin: auto 1px auto 2px;
     padding: 5px;
 }
 .delicious{
-    width: 130px;
     height: 130px;
     margin: auto 1px;
     padding: 5px;
@@ -174,8 +173,18 @@ ul li{
 }
 .highlights{
     display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+}
+.highlights h3{
+    text-align: center;
+    display: block;
+}
+.row1{
+    display: flex;
     flex-direction: row;
-    width: 50%;
+    width: auto;
 }
 .mobile{
     background-color: rgb(252, 189, 30);
