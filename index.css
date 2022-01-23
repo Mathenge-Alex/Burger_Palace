@@ -175,17 +175,34 @@ ul li img{
     display: flex;
     flex-direction: column;
     width: auto;
-    height: auto;
+    align-content: center;
+
 }
+
 .highlights h3{
     text-align: center;
     display: block;
 }
-.row1{
+.highlights img{
+    width: 50px;
+    width: 150px;
+}
+.display{
+    width: 50%;
+}
+.disp h3{
+    margin: 20px;
+    padding: 20px;
+
+}
+.row1, .row2{
     display: flex;
     flex-direction: row;
-    width: auto;
 }
+.row1, .row2 >div{
+    text-align: center;
+}
+
 .mobile{
     background-color: rgb(252, 189, 30);
 }
