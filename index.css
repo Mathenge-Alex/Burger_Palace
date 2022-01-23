@@ -4,31 +4,132 @@ body{
 }
 
 .order{
-
-    background-color: #F6B400;
     width: 70px;
     height: 25px;
     margin: auto;
     padding: 0rem;
+    
+}
+
+.logo_span{
+    display: flex;
+    flex-direction: row;
+}
+
+#burger{
+    display: inline;
+    padding: 20px;
+    justify-content: left;
+}
+
+#logo{
+    padding-top: 0px;
+}
+nav button{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    background-color: white;
+    float: right;
+    padding: 40px;
+}
+
+.intro{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.intro >h3{
+    display: inline;
+    width: 130px;
+    margin: 40px 20px 40px 20px;
+}
+.intro >p{
+    width: 100px;
+    margin: 30px 20px 40px 20px;
+}
+.intro >img{
+    width: 200px;
+    float: right;
+    margin: auto;
+}
+/* .intro .statements{
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+} */
+
+button{
+    display: block;
+    width: 70px;
+    height: 25px;
+    margin: auto;
+    padding: 0rem;
+    border: none;
+}
+
+em{
+    color: #F6B400;
+}
+
+.orderbtn{
+    background-color: #F6B400;
     border: none;
     border-top-left-radius: 01em;
     border-bottom-left-radius: 1em;
     border-top-right-radius: 1em;
 }
-#buger{
-    display: inline;
-    
+
+.services{
+    background-color: lightcyan;
+    height: 300px;
 }
-button{
-    width: 70px;
-    height: 25px;
+/* .services.quality {
+    padding: 10px 12px 10px 12px;
+    border-style: solid;
+    border: thin;
+    width: 15%;
     margin: auto;
-    padding: 0rem;
-    border: none;
+    display: inline;
+    border: goldenrod;
+    font-style: italic;
+    
+} */
+ul{
+    display: inline;
+    display: flex; 
+    flex-direction: row;
+    list-style: none;
+    padding:25px;
 }
-em{
-    color: #F6B400;
+ul li{
+    border: solid;
+    border-radius: 8px;
+    border-width: thin;
+    border-color: goldenrod;
+    margin: 5px;
 }
-.orderbtn{
-    border-top-left-radius: 5rem;
+.quality{
+    width: 130px;
+    height: 130px;
+    margin: auto 1px;
+    padding: 5px;
+}
+.fast{
+    width: 130px;
+    height: auto;
+    margin: auto 1px auto 2px;
+    padding: 5px;
+}
+.delicious{
+    width: 130px;
+    height: 130px;
+    margin: auto 1px;
+    padding: 5px;
+    justify-content: center;
+}
+.quality >p{
+    text-align: center;
 }
