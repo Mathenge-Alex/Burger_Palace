@@ -176,7 +176,7 @@ ul li img{
     flex-direction: column;
     width: auto;
     align-content: center;
-    background-color: none;
+    background-color: white;
 }
 
 .highlights h3{
@@ -203,11 +203,17 @@ ul li img{
     text-align: center;
     border: solid lightgray;
     border-radius: 1em;
+    /* border: thin lightgray; */
+    border-radius: 2em;
+    margin: 05px;
 }
 .row2 >div{
     text-align: center;
-    border: solid lightgray;
+    border: thin lightgray;
     border-radius: 1em;
+    border-width: thin;
+    margin: 20px;
+    
 }
 
 .mobile{
