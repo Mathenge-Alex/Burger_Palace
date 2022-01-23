@@ -1,3 +1,7 @@
+*{
+    margin: auto;
+    padding: 0px;
+}
 body{
     font-family: 'poppins';
 
@@ -7,25 +11,32 @@ body{
     width: 70px;
     height: 25px;
     margin: auto;
-    padding: 0rem;
+    padding: 10rem;
     
 }
 
 .logo_span{
     display: flex;
     flex-direction: row;
+    vertical-align: middle;
 }
 
 #burger{
     display: inline;
-    padding: 20px;
-    justify-content: left;
+    font-size: 150px;
+    width: 5px;
+    /* padding: 20px; */
+    vertical-align: middle;
+    /* justify-content: left; */
 }
 
 #logo{
     padding-top: 0px;
 }
-nav button{
+#cart{
+    display: flex;
+}
+.navigation button{
     display: flex;
     flex-direction: row;
     margin: auto;
@@ -133,3 +144,28 @@ ul li{
 .quality >p{
     text-align: center;
 }
+.mobile{
+    background-color: rgb(252, 189, 30);
+}
+.footnotes{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: left; */
+    height: 20px;
+    padding-top: 10px;
+}
+.footnotes .owner{
+    justify-content: right;
+}
+.footnotes .icons{
+    align-content: center;
+}
+.footnotes .copy{
+    display: flex;
+    float: left;
+
+}
+
+
+    /* float: left;
+    row and column-gap: classes; */
