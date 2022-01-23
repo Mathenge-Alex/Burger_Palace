@@ -1,12 +1,19 @@
 *{
-    margin: auto;
+    margin: 0px;
     padding: 0px;
 }
 body{
     font-family: 'poppins';
 
 }
-
+/*.nav_bar{
+    display: flex;
+}  */
+.section1{
+    margin: 0px;
+    height: 100%;
+    background: linear-gradient(100deg, white, #F6B400);
+}
 .order{
     width: 70px;
     height: 25px;
@@ -15,34 +22,45 @@ body{
     
 }
 
-.logo_span{
+/* .logo_span{
     display: flex;
     flex-direction: row;
     vertical-align: middle;
-}
+} */
 
-#burger{
+#logo_span{
     display: inline;
-    font-size: 150px;
-    width: 5px;
-    /* padding: 20px; */
-    vertical-align: middle;
-    /* justify-content: left; */
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 900;
+}
+#city{
+    
 }
 
 #logo{
-    padding-top: 0px;
+    padding-top: 10px;
 }
 #cart{
     display: flex;
+    background-color: white;
 }
-.navigation button{
+/* .nav_bar{
+    display: flex;
+} */
+.navigation{
     display: flex;
     flex-direction: row;
-    margin: auto;
+    margin: 10px;
     background-color: white;
     float: right;
-    padding: 40px;
+    overflow: hidden;
+    /* padding: 10px; */
+}
+#cart{
+    width: 30px;
+    height: 30px;
+    background-color: none;
 }
 
 .intro{
@@ -75,6 +93,7 @@ body{
 button{
     display: block;
     width: 70px;
+    background-color: white;
     height: 25px;
     margin: auto;
     padding: 0rem;
@@ -143,6 +162,11 @@ ul li{
 }
 .quality >p{
     text-align: center;
+}
+.highlights{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
 }
 .mobile{
     background-color: rgb(252, 189, 30);
