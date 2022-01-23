@@ -80,15 +80,24 @@ body{
     margin: 30px 20px 40px 20px;
 }
 .intro >img{
-    width: 200px;
+    width: 50%;
     float: right;
     margin: auto;
+    height: 100%;
 }
-/* .intro .statements{
+.statements{
+    margin: 20px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    background-color: blueviolet;
-} */
+    width: 50%;
+}
+.statements >h3{
+    padding: 20px;
+}
+.statements >p{
+    padding: 20px;
+}
 
 button{
     display: block;
