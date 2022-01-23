@@ -1,0 +1,34 @@
+body{
+    font-family: 'poppins';
+
+}
+
+.order{
+
+    background-color: #F6B400;
+    width: 70px;
+    height: 25px;
+    margin: auto;
+    padding: 0rem;
+    border: none;
+    border-top-left-radius: 01em;
+    border-bottom-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+#buger{
+    display: inline;
+    
+}
+button{
+    width: 70px;
+    height: 25px;
+    margin: auto;
+    padding: 0rem;
+    border: none;
+}
+em{
+    color: #F6B400;
+}
+.orderbtn{
+    border-top-left-radius: 5rem;
+}
