@@ -188,13 +188,33 @@ ul li img{
     width: 150px;
 }
 .display{
-    width: 50%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40rem;
+    padding: 20px;background-color: lightcyan;
+
+}
+.disp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 20px;
+
 }
 .disp h3{
     margin: 20px;
     padding: 20px;
 
 }
+/* .doubles img{
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    max-height: 400px;
+    position: absolute;
+} */
 .row1, .row2{
     display: flex;
     flex-direction: row;
@@ -218,6 +238,10 @@ ul li img{
 
 .mobile{
     background-color: rgb(252, 189, 30);
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
 }
 .footnotes{
     display: flex;
