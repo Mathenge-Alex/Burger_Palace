@@ -237,7 +237,7 @@ ul li img {
 
 .display {
     width: 100%;
-    height: 40rem;
+    height: 10%;
     padding: 20px;
     background-color: whitesmoke;
 
@@ -251,7 +251,7 @@ ul li img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 300px;
+    width: 500px;
     padding: 0px 30px;
 
 }
@@ -260,18 +260,42 @@ ul li img {
     margin: 50px 0;
     
 }
+.disp h1{
+    padding: 70px 0px;
+}
+.circles{
+    display: flex;
+}
+.circles span{
+    width: 100px;
+}
+.circles div{
+    width: 20px;
+    border-radius: 6em;
+    background-color: slategrey;
+}
+.circles #circle1{
+    background-color: orange;
+}
 .display h2{
     display: block;
     text-align: center;
     
 }
+.doubles{
+    float: right;
+    margin: 50px 50px;
+    padding: 30px 50px;
+}
 
 .doubles img{
     width: auto;
-    height: 200px;
+    height: 300px;
     float: left;
     position: absolute;
+    /* right: 300px; */
 }
+
 .row1,
 .row2 {
     display: flex;
@@ -317,8 +341,15 @@ ul li img {
     height: 40px;
     margin-top: 100px;
 }
-.mobile h3{
+.mobile{
+padding: 80px 30px;
+}
+.mobile img{
+    padding: 0px 10px 0px 0px;
+}
+.mobile h2{
     width: 70%;
+    margin: 30px 10px;
 }
 .map{
     height: 250px;
@@ -330,6 +361,25 @@ ul li img {
     display: flex;
     flex-direction: column;
 }
+.newsletter{
+    padding: 20px;
+}
+.newsletter h2{
+    padding: 20px 10px;
+}
+.subscribe{
+    display: flex;
+    float: left;
+}
+.subscribe div{
+    margin: 0px;
+    padding: 0px;
+    width: 160px;
+}
+.subscribe button{
+    background-color: rgb(252, 189, 30);
+}
+
 /* .map a:link{
     link
 } */
