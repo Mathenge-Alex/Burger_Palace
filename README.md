@@ -1,7 +1,7 @@
-# Week1_IP
+# Burger Palace
 |:--------|
-Week one individual project. This is a basic html and css landing page where customers find information and services about the site.
-This project was developed by Alex Mathenge as a learning tool for his studies.
+Individual project. This is a basic html and css landing page where customers find information and services about the site.
+This project was developed by Alex Mathenge as a practice tool.
 He apreciated the challenge to create a basic website and acknowledged the much he still needs to learn!
 ## Install
 This website package can be used by any develope, simply by downloading or cloning the code to their local directory.
