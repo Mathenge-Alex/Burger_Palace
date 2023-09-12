@@ -8,3 +8,4 @@ This website package can be used by any develope, simply by downloading or cloni
 Using a professional code editor such as the visual studio code may make working with the code easier.
 ## Usage
 The code is open-source and any developer is welcome to make pull requests and suggest improvements to the code. The website is purely meant for learnig purposes, thus can be manipulated into a better version.
+View the deployed version on https://mathenge-alex.github.io/Burger_Palace/
